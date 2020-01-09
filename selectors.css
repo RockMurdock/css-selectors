@@ -1,0 +1,54 @@
+header {
+    border: 1px solid goldenrod;
+}
+
+nav > a {
+    padding: 50px;
+}
+a ~ span.disabled{
+    color: gray;
+}
+a.disabled {
+color: purple;
+}
+a > span.disabled{
+    color: purple;
+}
+div > span.disabled{
+    color: purple;
+}
+
+input[type="text"] {
+    height: 25px;
+}
+
+.active{
+    color: yellow;
+}
+
+div > div > div > div {
+    color: red;
+}
+
+div > div > div ~ div {
+    color: blue;
+}
+
+div > div > div + h4 {
+    background-color: red;
+}
+
+div > div > div + h4 ~ h4 {
+    background-color: blue;
+}
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+
+div.grandparent > h4{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
